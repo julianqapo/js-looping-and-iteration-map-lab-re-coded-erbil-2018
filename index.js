@@ -23,7 +23,7 @@ function nameToAttributes(drivers){
 
 function nameToAttributes(drivers){
   let z = drivers.map(function(v){
-return v.split(" ")
+ v.split(" ")
 
 })
 
