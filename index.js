@@ -25,9 +25,9 @@ function nameToAttributes(drivers){
   let y = drivers.map(function(v) {
      names = v.split(" ")
      let o = {}
-     o.firstname = names[0]
-     o.lastname = names[1]
-   return o  
+     o.firstName = names[0]
+     o.lastName = names[1]
+   return o
    })
  return y
  }
