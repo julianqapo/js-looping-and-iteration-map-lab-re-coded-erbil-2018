@@ -22,14 +22,15 @@ function nameToAttributes(drivers){
 */
 
 function nameToAttributes(drivers){
-  drivers.map(function(v) { 
-  	names = v.split(" ")
-  	let o = {}
-  	o.firstname = names[0]
-  	o.lastname = names[1]
-  	return o
-  })
-}
+  let y = drivers.map(function(v) {
+     names = v.split(" ")
+     let o = {}
+     o.firstname = names[0]
+     o.lastname = names[1]
+   return o  
+   })
+ return y
+ }
 
 
 
